@@ -34,7 +34,9 @@ var gulp = require('gulp'),
     browserSync = require("browser-sync"),
     reload = browserSync.reload,
     minifyHTML = require('gulp-minify-html'),
-    cache = require('gulp-cache');
+    cache = require('gulp-cache'),
+    concat = require('gulp-concat'),
+    flatten = require('gulp-flatten');
 
 var path = {
     build: {
@@ -45,16 +47,16 @@ var path = {
         fonts: 'build/fonts/'
     },
     src: {
-        html: 'src/*.html',
+        html: 'src/**/*.html',
         js: 'src/blocks/**/*.js',
         style: 'src/blocks/**/*.scss',
-        img: 'src/blocks/**/*.*',
+        img: 'src/blocks/**/*.{jpg,png,svg,gif}',
         fonts: 'src/fonts/**/*.*'
     },
     watch: {
         html: 'src/**/*.html',
         js: 'src/blocks/**/*.js',
-        style: 'src/**/*.scss',
+        style: 'src/blocks/**/*.scss',
         img: 'src/blocks/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
@@ -85,6 +87,7 @@ gulp.task('js:build', function () {
         .pipe(rigger())
         .pipe(sourcemaps.init())
         .pipe(uglify())
+        .pipe(concat('main.js'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.js))
         .pipe(reload({stream: true}));
@@ -92,6 +95,7 @@ gulp.task('js:build', function () {
 gulp.task('style:build', function () {
     gulp.src(path.src.style)
         .pipe(sourcemaps.init())
+        .pipe(concat('style.css'))
         .pipe(sass(
             {
                 outputStyle: 'nested',
@@ -114,6 +118,7 @@ gulp.task('image:build', function () {
         ], {
             verbose: true
         })))
+        .pipe(flatten())
         .pipe(gulp.dest(path.build.img));
 });
 gulp.task('fonts:build', function() {
