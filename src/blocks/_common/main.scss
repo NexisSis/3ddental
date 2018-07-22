@@ -1,0 +1,19 @@
+html {
+  font-size: .9375vw;
+}
+body{
+  margin:0!important;
+}
+a{
+  text-decoration: unset;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.flex-j-c{
+  justify-content: center;
+}
