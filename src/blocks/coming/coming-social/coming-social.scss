@@ -1,0 +1,20 @@
+.coming-social{
+  margin-top: 3rem;
+  &__item{
+    color:white;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 600px){
+  .coming-social{
+    margin-top: 5rem;
+    &__item{
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+      font-size: 3rem;
+    }
+  }
+}

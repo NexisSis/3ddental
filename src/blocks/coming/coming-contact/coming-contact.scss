@@ -1,0 +1,43 @@
+.coming-contact{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 8em;
+  &__item{
+    color:white;
+    width: 25%;
+  }
+  &__flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__text{
+    font-size:0.8rem;
+  }
+  &__text_underline{
+    text-decoration: underline;
+  }
+  &__icon{
+    margin-left: 1rem;
+    font-size:1.3rem;
+  }
+}
+
+
+@media(max-width: 600px){
+  .coming-contact{
+    width: 80%;
+    margin-left:10%;
+    &__icon{
+      margin-left: 2rem;
+      font-size: 3rem;
+    }
+    &__text{
+      font-size: 1.7rem;
+    }
+  }
+  &__item{
+    color:white;
+    width:33%;
+  }
+}
