@@ -1,0 +1,23 @@
+ .coming-main{
+   &__img{
+     width: 12.6em;
+     margin-top: 8em;
+   }
+   h1{
+     text-transform: uppercase;
+     color: #fff;
+     font-size: 4.3rem;
+     margin-top: 1rem;
+     letter-spacing: 0.1rem;
+     margin-bottom:0;
+   }
+   h2{
+     color: white;
+     margin-top: 0rem;
+     font-size: 1em;
+     letter-spacing: 0.04em;
+   }
+   &__h2-margin{
+     margin-top:0.4rem;
+   }
+ }

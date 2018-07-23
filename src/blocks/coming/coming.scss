@@ -2,8 +2,10 @@
     height: 70em;
     max-height: 100vh;
     min-height: 40em;
-    background-image: url(../img/coming-bg.jpg);
-    background-size: cover;
+    background-image: url(../img/coming-bg-left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #3fa4e2;
 }
 .coming-content{
     text-align: center;
