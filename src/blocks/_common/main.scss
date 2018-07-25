@@ -8,16 +8,22 @@ body{
 }
 a{
   text-decoration: unset;
+  color:white;
 }
 .flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 .flex-j-c{
   justify-content: center;
+}
+.flex-j-s{
+  justify-content: flex-start;
+}
+.flex-n-w{
+  flex-wrap: nowrap;
 }
 .smart-break{
   display: block;

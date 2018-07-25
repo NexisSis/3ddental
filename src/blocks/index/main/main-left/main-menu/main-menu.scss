@@ -1,0 +1,29 @@
+.main-menu{
+  height: 9rem;
+  width: 100%;
+  background-color: #1194cc;
+  &__wrapper{
+    margin-left: 4.5em;
+    margin-top: 2.9em;
+  }
+  &__text{
+    color:white;
+  }
+  &__item{
+    margin-top:0.4rem;
+  }
+  &__line-1{
+    width: 2.8rem;
+    border-bottom: 0.2rem solid white;
+  }
+  &__line-2{
+    width: 1.9rem;
+    border-bottom: 0.2rem solid white;
+    margin-top:0.25rem;
+  }
+  &__line-3{
+    width: 1.2rem;
+    border-bottom: 0.2rem solid white;
+    margin-top:0.25rem;
+  }
+}

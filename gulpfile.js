@@ -47,7 +47,7 @@ var path = {
         fonts: 'build/fonts/'
     },
     src: {
-        html: 'src/**/*.html',
+        html: 'src/*.html',
         js: 'src/blocks/**/*.js',
         style: 'src/blocks/**/*.scss',
         img: 'src/blocks/**/*.{jpg,png,svg,gif}',
