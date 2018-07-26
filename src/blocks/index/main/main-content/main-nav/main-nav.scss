@@ -1,25 +1,25 @@
 .main-nav{
   &__item-1{
-    margin-left: -14.5em;
-    margin-top: -0.1em;
+    margin-top: -0.1rem;
+    margin-left: -10.35rem;
   }
   &__text-1{
     color:white;
     text-transform: uppercase;
-    font-size: .92em;
+    font-size: .92rem;
     font-weight: 600;
   }
   &__line-1{
     border: 0.06em solid #53afe8;
-    width: 1em;
-    margin-left: -2.7em;
-    margin-top: 0.45em;
+    width: 1rem;
+    margin-left: -2.7rem;
+    margin-top: 0.45rem;
     position: absolute;
   }
   &__item-2{
     width: 13rem;
     margin-top: -0.4rem;
-    margin-left: 0.2rem;
+    margin-left: 2.4rem;
   }
   &__text-2{
     color:white;
@@ -37,14 +37,29 @@
     position: absolute;
     width: 7.6rem;
     margin-top: 0.78rem;
-    margin-left: 0.4rem;
+    margin-left: 2.45rem;
   }
   &__line-3{
     border-bottom: 0.22rem solid white;
     position: absolute;
     width: 3.8rem;
     margin-top: 0.78rem;
-    margin-left: 0.4rem;
+    margin-left: 2.45rem;
   }
-
+  &__schedule{
+    margin-right: 3.56rem;
+    height: 3.5rem;
+    text-align: center;
+    width: 18rem;
+    background-color: #82cded;
+    border: 0.09rem solid white;
+    border-radius: 33px;
+  }
+  &__text-3{
+    color: #fff;
+    margin-top: 1.2rem;
+    margin-left: 2.6rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
 }
