@@ -1,0 +1,43 @@
+.main-news{
+  margin-top: 2rem;
+  &__text{
+    color: white;
+    font-weight: 600;
+    margin-right: 7rem;
+  }
+  &__line-1{
+    position: absolute;
+    border-bottom: 0.1rem solid white;
+    width: 1.9rem;
+    height: 1rem;
+    margin-left: 5rem;
+    margin-top: -0.34rem;
+
+  }
+  &__line-2{
+    position: absolute;
+    border-bottom: .1rem solid #fde7e796;
+    width: 3.8rem;
+    height: 1rem;
+    margin-left: 5rem;
+    margin-top: -0.34rem;
+  }
+  &__logo-1{
+    width: 2.8rem;
+  }
+  &__logo-2{
+    width: 2.6rem;
+  }
+  &__logo-3{
+    width: 3.27rem;
+  }
+  &__logo-4{
+    width: 3.47rem;
+  }
+  img{
+    margin-right: 3rem;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}

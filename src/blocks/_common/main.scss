@@ -25,6 +25,31 @@ a{
 .flex-n-w{
   flex-wrap: nowrap;
 }
+.c-w{
+  color:white;
+}
+.b-c-w{
+  background-color:white;
+}
 .smart-break{
   display: block;
+}
+.arrow{
+    span{
+    background-color: white;
+    width: 4rem;
+    height: .056em;
+    display: block;
+    &:first-of-type{
+      transform: rotate(-45deg);
+      width: 0.3rem;
+    }
+    &:last-of-type{
+      transform: rotate(45deg);
+      width: 0.3rem;
+    }
+  }
+}
+.arrow-right{
+  transform: rotate(180deg);
 }

@@ -1,0 +1,21 @@
+.main-footer{
+  padding-left:4rem;
+  padding-right: 3rem;
+  margin-top:3.5rem;
+  .arrow{
+    margin-left:1.4rem;
+  }
+  &__button{
+    height: 3.4rem;
+    border-radius: 28px;
+    border: .13rem solid #fff;
+    background-color: #82cded;
+    padding: 0 2.2rem;
+  }
+  &__text{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}

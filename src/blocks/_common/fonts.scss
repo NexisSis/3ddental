@@ -118,6 +118,7 @@
   url('../fonts/icomoon.svg?k90h3o#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  color:white;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -137,29 +138,47 @@
 }
 
 .icon-envelope:before {
-  content: "\e900";
+  content: "\e90d";
 }
-.icon-facebook:before {
-  content: "\e901";
-}
-.icon-geo:before {
-  content: "\e902";
-}
-.icon-linkedin:before {
+.icon-general:before {
   content: "\e903";
 }
-.icon-phone:before {
+.icon-text:before {
   content: "\e904";
 }
-.icon-tumblr:before {
+.icon-facebook:before {
   content: "\e905";
 }
-.icon-twitter:before {
+.icon-linkedin:before {
   content: "\e906";
 }
-.icon-wordpress:before {
+.icon-twitter:before {
   content: "\e907";
 }
-.icon-youtube:before {
+.icon-uber .path1:before {
   content: "\e908";
+}
+.icon-uber .path2:before {
+  content: "\e909";
+ }
+.icon-uber .path3:before {
+  content: "\e90a";
+}
+.icon-wordpress:before {
+  content: "\e90b";
+}
+.icon-youtube:before {
+  content: "\e90c";
+}
+.icon-clock:before {
+  content: "\e900";
+}
+.icon-geo:before {
+  content: "\e901";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+.icon-compass:before {
+  content: "\e949";
 }

@@ -1,7 +1,7 @@
 .main-nav{
   &__item-1{
     margin-top: -0.1rem;
-    margin-left: -10.35rem;
+    margin-left: -7.7rem;
   }
   &__text-1{
     color:white;
@@ -10,16 +10,16 @@
     font-weight: 600;
   }
   &__line-1{
-    border: 0.06em solid #53afe8;
+    border: 0.06rem solid #53afe8;
     width: 1rem;
-    margin-left: -2.7rem;
+    margin-left: -2.92rem;
     margin-top: 0.45rem;
     position: absolute;
   }
   &__item-2{
     width: 13rem;
     margin-top: -0.4rem;
-    margin-left: 2.4rem;
+    margin-left: 3.7rem;
   }
   &__text-2{
     color:white;
@@ -29,26 +29,27 @@
   }
   &__img-1{
     position: absolute;
-    margin-left: -2rem;
-    margin-top: 0.8rem;
+    margin-left: -2.2rem;
+    margin-top: 0.5rem;
+    font-size: 1.7rem;
   }
   &__line-2{
     border-bottom: 0.22rem solid #efdede9e;
     position: absolute;
     width: 7.6rem;
     margin-top: 0.78rem;
-    margin-left: 2.45rem;
+    margin-left: 3.9rem
   }
   &__line-3{
     border-bottom: 0.22rem solid white;
     position: absolute;
     width: 3.8rem;
     margin-top: 0.78rem;
-    margin-left: 2.45rem;
+    margin-left: 3.9rem
   }
   &__schedule{
     margin-right: 3.56rem;
-    height: 3.5rem;
+    height: 3.2rem;
     text-align: center;
     width: 18rem;
     background-color: #82cded;
@@ -57,9 +58,11 @@
   }
   &__text-3{
     color: #fff;
-    margin-top: 1.2rem;
-    margin-left: 2.6rem;
     font-size: 0.95rem;
     font-weight: 600;
+  }
+  &__img-2{
+    font-size: 1.7rem;
+    margin-right: 1.4rem;
   }
 }
