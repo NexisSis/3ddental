@@ -24,18 +24,22 @@
   }
   &__item-1{
     background-image: url(../img/treatments-img-1.png);
+    background-size: cover;
   }
   &__item-2{
     background-image: url(../img/treatments-img-2.png);
-    background-position-x: -8rem;
+    background-size: cover;
+    background-position-x: -6rem;
   }
   &__item-3{
     background-image: url(../img/treatments-img-3.png);
+    background-size: cover;
     background-position: bottom;
   }
   &__item-4{
     background-image: url(../img/treatments-img-4.png);
-    background-position-x: -2rem;
+    background-size: cover;
+    background-position-x: -1rem;
     position: relative;
     width: 54%;
     background-repeat: no-repeat;
@@ -44,15 +48,19 @@
   &__item-5{
     background-image: url(../img/treatments-img-5.png);
     margin-left:-4%;
+    background-size: cover;
   }
   &__item-6{
     background-image: url(../img/treatments-img-6.png);
+    background-size: cover;
   }
   &__item-7{
     background-image: url(../img/treatments-img-7.png);
+    background-size: cover;
   }
   &__item-8{
     background-image: url(../img/treatments-img-8.png);
+    background-size: cover;
   }
   &__item-9{
     background-image: url(../img/treatments-img-9.png);
@@ -60,6 +68,7 @@
     background-position: left;
     background-position-y: 0.3rem;
     background-color: #ebeff2;
+    background-size: contain;
   }
   &__line{
     background-color: #fff;
