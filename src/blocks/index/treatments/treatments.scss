@@ -1,0 +1,167 @@
+.treatments{
+  &__item-0{
+    background-color: #1194cc;
+  }
+  &__icon{
+    width: 6rem;
+    margin-top: 2.6rem;
+  }
+  &__position-1{
+    padding: 3.4rem;
+  }
+  &__text-1{
+    font-size: 5.6rem;
+    font-weight: 100;
+    margin-top: 1rem;
+    color: white;
+  }
+  &__text-2{
+    color: white;
+    font-size: 2.37rem;
+    font-weight: 300;
+    margin-top: -.4rem;
+    margin-left: 0.3rem;
+  }
+  &__item-1{
+    background-image: url(../img/treatments-img-1.png);
+  }
+  &__item-2{
+    background-image: url(../img/treatments-img-2.png);
+    background-position-x: -8rem;
+  }
+  &__item-3{
+    background-image: url(../img/treatments-img-3.png);
+    background-position: bottom;
+  }
+  &__item-4{
+    background-image: url(../img/treatments-img-4.png);
+    background-position-x: -2rem;
+    position: relative;
+    width: 54%;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  &__item-5{
+    background-image: url(../img/treatments-img-5.png);
+    margin-left:-4%;
+  }
+  &__item-6{
+    background-image: url(../img/treatments-img-6.png);
+  }
+  &__item-7{
+    background-image: url(../img/treatments-img-7.png);
+  }
+  &__item-8{
+    background-image: url(../img/treatments-img-8.png);
+  }
+  &__item-9{
+    background-image: url(../img/treatments-img-9.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 0.3rem;
+    background-color: #ebeff2;
+  }
+  &__line{
+    background-color: #fff;
+    width: 2.8rem;
+    height: .11rem;
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+    transition: 2s;
+  }
+  &__position-2{
+    padding-top: 23.2rem;
+    padding-left: 4.4rem;
+    padding-right: 1rem;
+    transition:2s;
+  }
+  &__text-3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  &__text-4{
+    opacity: 0;
+    transition-duration: 1.5s;
+    color: #fff;
+    line-height: 1.7rem;
+  }
+  &__hover:hover &__position-2{
+    padding-top: 10.5rem;
+    cursor: pointer;
+  }
+  &__hover:hover  &__text-4{
+    opacity:1;
+    transition-delay: 300ms;
+
+  }
+  &__hover:hover &__line{
+    width: 5rem;
+    height: .19rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  &__hover-bg{
+    transition: 2s;
+    height: inherit;
+  }
+  &__hover:hover &__hover-bg{
+    background-color: #1795bba1;
+    background-color: #1795bba1;
+  }
+  &__position-3{
+    padding-left: 5rem;
+    padding-right: 31rem;
+    padding-top: 8.9rem;
+  }
+  &__text-5{
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.035rem;
+    margin-bottom: 0.6rem;
+  }
+  &__text-6{
+    margin-top: 0.7rem;
+    color: white;
+    line-height: 1.5rem;
+  }
+  &__position-4{
+    padding-left: 26rem;
+    padding-right: 4rem;
+    padding-top: 9.2rem;
+  }
+  &__button{
+    height: 3rem;
+    border-radius: 28px;
+    border: .13rem solid #fff;
+    background-color: #82cded;
+    padding: 0 2rem;
+    width: 17.4rem;
+    margin-top: 2.5rem;
+  }
+  &__button-text{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  &__text-7_blue{
+    color: #1293ca;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+  }
+  &__text-7{
+    line-height: 1.7em;
+    color: #000;
+    font-size: 0.73rem;
+    font-style: italic;
+  }
+  &__text-7-position{
+    margin-left: -1rem;
+    margin-top: -0.8rem;
+    position: absolute;
+  }
+}

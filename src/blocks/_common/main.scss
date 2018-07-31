@@ -53,3 +53,14 @@ a{
 .arrow-right{
   transform: rotate(180deg);
 }
+.half{
+  width: 50%;
+}
+.quarter{
+  width: 25%;
+}
+.half-height{
+  min-height: 18em;
+  max-height: 50vh;
+  height: 28em;
+}

@@ -1,0 +1,59 @@
+.about{
+  &__video{
+    background-image:url(../img/about-bg-1.png);
+    background-position: center;
+  }
+  &__item{
+    min-height: 18em;
+    max-height: 75vh;
+    height: 36em;
+  }
+  &__text-1{
+    color:white;
+    width: 27.8rem;
+    margin-left: 8rem;
+    margin-top: 4.6rem;
+    line-height: 1.5rem;
+    font-size: 0.98rem;
+  }
+  &__line{
+    width: 3.7rem;
+    height: 0.04rem;
+    background-color: #fff;
+    position: absolute;
+    margin-left: -5rem;
+    margin-top: 0.7rem;
+    z-index: 1;
+  }
+  &__bg-right{
+    background-color: #ebeff2;
+    background-image: url(../img/about-bg-2.png);
+    background-repeat: no-repeat;
+    background-position-x: 18.3rem;
+    background-position-y: 27rem;
+  }
+  &__text-2{
+    font-weight: 100;
+    font-size: 3.3rem;
+    margin-left: 8rem;
+    margin-top: 6rem;
+  }
+  &__text-3{
+    color: #268fd0;
+    font-size: 5.5rem;
+    width: fit-content;
+    margin-top: 0.7rem;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-left: -6rem;
+    position: absolute;
+    text-transform: uppercase;
+  }
+  &__text-4{
+    padding-right: 5rem;
+    padding-left: 3.5rem;
+    margin-top: 8rem;
+    font-size: 1.04rem;
+    line-height: 1.5rem;
+  }
+}
