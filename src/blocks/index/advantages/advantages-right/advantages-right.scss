@@ -1,0 +1,48 @@
+.advantages-right{
+  height: 44rem;
+  margin-top: -1rem;
+  &__circle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 30px;
+    display: flex;
+    background-color: #1897ce00;
+    align-items: center;
+    justify-content: space-around;
+    color: #c1c1c3;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top:-1.9rem;
+    transition:1.5s;
+  }
+  &__position:hover &__circle{
+    background-color: #1897ce;
+    color: white;
+  }
+  &__position:hover{
+    cursor:pointer;
+  }
+  &__circle-4{
+    margin-top: -4.5rem;
+  }
+  &__content{
+    width: 30rem;
+    margin-left: 1.4rem;
+  }
+  &__position{
+    padding-left:5rem;
+  }
+  &__text-1{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.8rem;
+  }
+  &__text-1_blue{
+    color:#1998cf;
+  }
+  &__text-3{
+    margin-top: 1rem;
+    line-height: 1.6rem;
+  }
+}
