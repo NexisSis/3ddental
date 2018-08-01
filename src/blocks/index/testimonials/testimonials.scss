@@ -1,0 +1,63 @@
+.testimonials{
+  &__icon{
+    width:4rem;
+    margin-bottom: 1rem;
+  }
+  &__height{
+    min-height: 18em;
+    max-height: 50vh;
+    height: 26em;
+  }
+  &__heading{
+    background-color: #1194cc;
+    height: 100%;
+  }
+  &__text-1{
+    color:white
+  }
+  &__text-2{
+    color:white
+  }
+  &__position-1{
+    padding-left: 4.6rem;
+    margin-top: 1rem;
+  }
+  &__text-1{
+    font-size: 5.7rem;
+    font-weight: 100;
+    margin-top: -0.3rem;
+  }
+  &__text-2{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-left: 0.6rem;
+    margin-top: -1.2rem;
+  }
+  &__arrow{
+    padding-left: 4rem;
+    height: 100%;
+    padding-right: 4rem;
+
+  }
+  &__arrow-location{
+    position: relative;
+    width: 75%;
+    height: 2rem;
+    margin-top: -4rem;
+    margin-left: 25%;
+  }
+  &__arrow-1{
+    width: 1rem;
+    height: 0.14rem;
+    background-color: #1897ce;
+    transform: rotate(-45deg);
+    margin-top: 0.5rem;
+  }
+  &__arrow-2{
+    width: 1rem;
+    height: 0.14rem;
+    background-color: #1897ce;
+    transform: rotate(45deg);
+    margin-top: 0.5rem;
+  }
+}

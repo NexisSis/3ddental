@@ -1,0 +1,52 @@
+.testimonials-item{
+  background-color: #eff7fa;
+  height: 100%;
+  &_blue{
+    background-color: #e4eff5;
+  }
+  &__position-1{
+    padding: 0 4.2em;
+    margin-top: 2rem;
+  }
+  &__img{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 40px;
+  }
+  &__icon{
+    position: absolute;
+    margin-left: 18.5rem;
+    margin-top: -0.7rem;
+
+    div{
+      width: 0.2rem;
+      height: 0.111rem;
+      background-color: #979797;
+      margin-top:0.2rem;
+    }
+    div:nth-child(odd){
+      width: 1rem;
+    }
+    div:nth-child(even){
+      width: 0.5rem;
+    }
+  }
+  &__text-3{
+    font-style: italic;
+    position: absolute;
+    margin-top: 4.7rem;
+    margin-left: -1rem;
+  }
+  &__text-4{
+    font-weight: 700;
+    font-size: 1.27rem;
+    margin-top: 2.1rem;
+  }
+  &__text-5{
+    margin-top: 1.1rem;
+    font-style: italic;
+    font-size: 0.94rem;
+    line-height: 1.5rem;
+    color: #515055;
+  }
+}
