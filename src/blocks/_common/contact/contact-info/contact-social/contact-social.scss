@@ -1,0 +1,19 @@
+.contact-social{
+  &__text-1{
+    text-transform: uppercase;
+    color: #0f94cd;
+    font-weight: 700;
+    font-size: 0.96rem;
+  }
+  &__item{
+    margin-left: 1.6rem;
+  }
+  &__icon{
+    color:black;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+  &__icon:hover{
+    color:#0f94cd;
+  }
+}

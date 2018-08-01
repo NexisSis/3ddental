@@ -1,0 +1,77 @@
+.contact-info{
+  &__text-1{
+    color: #0e96ca;
+    font-weight: 200;
+    font-size: 5.7rem;
+    line-height: 2rem;
+  }
+  &__text-2{
+    font-size: 2.55rem;
+    font-weight: 300;
+  }
+  &__descr{
+    margin-top: 3rem;
+    padding-right: 19rem;
+  }
+  &__text-3{
+    font-size: 1.06rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+  }
+  &__location{
+    margin-top: 2.6rem;
+    padding-right: 4rem;
+  }
+  &__text-4{
+    text-transform: uppercase;
+    color: #1193cd;
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+  &__item-1{
+    width: 29%;
+    border-right: 0.04rem solid #5fc1fe;
+    height: 6.2rem;
+  }
+  &__item-2{
+    width: 31%;
+    margin-left: 3.2rem;
+    border-right: 0.04rem solid #5fc1fe;
+    height: 6.2rem;
+  }
+  &__text-5{
+    margin-top: 1.5rem;
+    line-height: 1.4rem;
+    color: black;
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  &__item-3{
+    width: 24%;
+    height: 6.2rem;
+    text-align: center;
+    &__text-4{
+      text-align: center;
+    }
+  }
+  &__text-6{
+    margin-left: 2.1rem;
+    margin-top: 1rem;
+  }
+  & .icon-geo{
+    color: #1194cc;
+    font-size: 1.7rem;
+  }
+  &__gmap-text{
+    color: black;
+    text-decoration: underline;
+    margin-left: 0.5rem;
+  }
+  &__uber{
+    width: 9rem;
+  }
+  &__social{
+    padding-right: 3.6rem;
+    margin-top: 2.3rem;
+  }
+}

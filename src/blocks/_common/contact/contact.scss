@@ -1,0 +1,15 @@
+#contact{
+  margin-top:2rem;
+  background-image:url(../img/contact-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ebeff2;
+}
+.contact{
+  &__vertical{
+    position:absolute;
+  }
+  &__wrapper{
+    padding: 5.6rem 2.2rem;
+  }
+}
