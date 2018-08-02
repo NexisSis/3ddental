@@ -66,6 +66,10 @@
     margin-top: -3.9rem;
     cursor: pointer;
   }
+  input:focus,textarea:focus{
+    color:#1194cc;
+    border-color:#1194cc;
+  }
   .arrow{
     margin-top: -0.78rem;
     position: absolute;
