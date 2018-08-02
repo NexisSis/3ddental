@@ -4,12 +4,28 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: #ebeff2;
+  height: 43.4rem;
 }
 .contact{
   &__vertical{
     position:absolute;
+    transform: rotate(90deg);
+    margin-left: 34rem;
+    margin-top: 6.4rem;
   }
   &__wrapper{
-    padding: 5.6rem 2.2rem;
+    padding: 6.8rem 2.2rem 5rem;
+  }
+  &__line{
+    height: 0.2rem;
+    width: 24.7rem;
+    background-color: #1194cc;
+  }
+  &__vertical-text {
+    transform: rotate(180deg);
+    color: #1194cc;
+    font-weight: 600;
+    margin-right: 1.15rem;
+    font-size: 0.96rem;
   }
 }

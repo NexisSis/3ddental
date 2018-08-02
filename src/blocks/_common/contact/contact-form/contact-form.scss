@@ -1,0 +1,74 @@
+.contact-form{
+  &__wrapper{
+    padding-left: 3.4rem;
+    padding-right: 3.5rem;
+    margin-top: -4.8rem;
+  }
+  &__text-1{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #1193cd;
+    margin-bottom: 2rem;
+  }
+  &__input{
+    width: 17.5rem;
+    height: 3rem;
+    border: 0.2rem solid #c7dbe4;
+    background-color: #f0f8ff00;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    font-size: 0.9rem;
+    color: black;
+  }
+  &__name-input{
+    margin-right: 1.5rem;
+  }
+  &__email-input{
+    margin-right: 1.5rem;
+    margin-top:2rem;
+  }
+  textarea{
+    margin-top:2rem;
+    height: 15.7rem;
+    padding-top: 1.3rem;
+    resize:none
+  }
+  &__tel-input{
+
+  }
+  &__flex{
+    align-items: self-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  &__text-2{
+    position: absolute;
+    width: 16rem;
+    margin-top: 11.5rem;
+    font-size: .78rem;
+    line-height: 1.2rem;
+    margin-left: 0.2rem;
+  }
+  button{
+    width: 12rem;
+    background-color: #45a6dd;
+    color: white;
+    border: 0.03rem solid white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 2.1rem;
+    padding-top: 1.1rem;
+    padding-bottom: 0.9rem;
+    margin-top: -3.9rem;
+    cursor: pointer;
+  }
+  .arrow{
+    margin-top: -0.78rem;
+    position: absolute;
+    margin-left: 4rem;
+  }
+}
