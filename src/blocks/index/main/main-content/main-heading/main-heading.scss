@@ -14,4 +14,51 @@
     font-weight: 800;
     margin-top: 1rem;
   }
+  &__text-3{
+    color: white;
+    font-size: 5.2rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
 }
+
+@media(max-width: 750px){
+    .main-heading{
+      margin-top: 92rem;
+      margin-left: 4rem;
+      width: 98rem;
+      &__text-1{
+        font-size: 22rem;
+        margin-top: 11rem;
+        text-align: center;
+      }
+      &__text-2{
+        font-size: 8rem;
+        margin-top: 9rem;
+        text-align: center;
+        line-height: 12rem;
+      }
+      &__text-3{
+        color: white;
+        font-size: 5rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
+      }
+      .main-schedule{
+        height: 17rem;
+        width: 100%;
+        margin-top: 8rem;
+        border: 0.5rem solid #fff;
+        &__text-1{
+          font-size: 5rem;
+        }
+        &__icon{
+          font-size: 8.5rem;
+          margin-right: 8rem;
+        }
+      }
+  }
+}
+
+

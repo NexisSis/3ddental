@@ -6,3 +6,8 @@
   align-items: center;
   justify-content: space-between;
 }
+@media(max-width: 750px){
+  .main-left{
+    display: none;
+  }
+}

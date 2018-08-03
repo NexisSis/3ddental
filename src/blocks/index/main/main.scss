@@ -3,3 +3,11 @@
   max-height: 100vh;
   min-height: 56rem;
 }
+
+@media(max-width:750px){
+  #main{
+    height: 190em;
+    min-height: 75em;
+    z-index: 1;
+  }
+}

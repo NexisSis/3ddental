@@ -5,7 +5,7 @@
   &__wrapper{
     margin-left: 4.5em;
     margin-top: 2.9em;
-    cursor: pointer;
+    cursor: pointerg;
   }
   &__text{
     color:white;
@@ -37,14 +37,14 @@
     margin-left:-30em;
     width: 30rem;
     z-index: 1;
-    transition: 2s;
+    transition: 1s;
     ul{
       list-style-type: none;
       li{
         color:white;
         font-size: 1.7rem;
         font-weight: 300;
-        transition: 1s;
+        transition: 0.5s;
         margin-bottom: 2rem;
       }
       li:hover{

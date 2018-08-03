@@ -1,0 +1,18 @@
+.main-schedule{
+  height: 3.2rem;
+  text-align: center;
+  width: 18rem;
+  background-color: #82cded;
+  border: 0.09rem solid white;
+  border-radius: 33px;
+  &__text-1{
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+  &__icon{
+    font-size: 1.7rem;
+    margin-right: 1.4rem;
+  }
+}
+

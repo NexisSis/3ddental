@@ -6,3 +6,10 @@
   background-position-x: -10.4rem;
   background-color: #3397d5;
 }
+@media(max-width:750px){
+  .main-content{
+    width: 100%;
+    background-image:url(../img/main-bg-mobile.png);
+    background-position-x: 0;
+  }
+}

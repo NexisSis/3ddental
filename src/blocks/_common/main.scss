@@ -71,3 +71,23 @@ a{
 h2{
   margin:0;
 }
+.mobile{
+  display: none;
+}
+.break-desktop{
+  display: block;
+}
+.mobile-flex{
+  display: none;
+}
+@media(max-width: 750px){
+  .mobile{
+    display: block;
+  }
+  .mobile-flex{
+    display: flex;
+  }
+  .break-desktop{
+    display: inline;
+  }
+}
