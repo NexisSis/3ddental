@@ -11,7 +11,7 @@
     margin-bottom: 2rem;
   }
   &__input{
-    width: 17.5rem;
+    width: 17rem;
     height: 3rem;
     border: 0.2rem solid #c7dbe4;
     background-color: #f0f8ff00;
@@ -19,6 +19,8 @@
     padding-right: 1.6rem;
     font-size: 0.9rem;
     color: black;
+    transition: 1s;
+    font-weight: 500;
   }
   &__name-input{
     margin-right: 1.5rem;
@@ -31,7 +33,9 @@
     margin-top:2rem;
     height: 15.7rem;
     padding-top: 1.3rem;
-    resize:none
+    resize:none;
+    transition:1s;
+    font-weight: 600;
   }
   &__tel-input{
 
