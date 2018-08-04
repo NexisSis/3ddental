@@ -1,11 +1,13 @@
 @media(max-width:750px){
   .main-nav-mobile{
     position: absolute;
-    margin-top: 4rem;
+    padding-top: 4rem;
     top: 0;
     width: 100%;
     &__item-1{
+      z-index: 1;
       font-size: 5.5rem;
+      position: relative;
     }
     &__item-2{
       font-size: 4rem;
@@ -39,5 +41,75 @@
     &__wrapper{
       padding: 0 3rem;
     }
+    &__call_hover{
+      display: none;
+    }
+    &__menu_hover{
+      display: none;
+    }
+    &__menu_hover{
+      display: block;
+      position: absolute;
+      height: 190rem;
+      min-height: 190rem;
+      z-index: 1;
+      top: 0;
+      width: 100%;
+      background-color: #1ea1cde6;
+    }
+    &___menu-wrapper{
+      height: 100%;
+      padding-top: 13rem;
+    }
+    &__menu-item-1{
+      height: 32rem;
+      border-bottom: .1rem solid #7bddff;
+      padding: 8rem 20rem 0rem;
+    }
+    &__text-1{
+      color: white;
+      font-size: 4.1rem;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    &__text-2{
+      color: white;
+      font-size: 4.5rem;
+      margin-top: 8rem;
+      font-weight: 600;
+      line-height: 7rem;
+    }
+    &__text-2_contact{
+      margin-top: 3rem;
+      line-height: 9rem;
+    }
+    &__text-2_geo{
+      margin-top: 6rem;
+    }
+    .icon-geo{
+      margin-right: 4rem;
+      font-size: 7rem;
+    }
+    &__text-3{
+      color: white;
+      font-size: 4rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-top:-5rem;
+    }
+    &__menu-item-2{
+      height: 57rem;
+    }
+    &__icons{
+      margin-top: 8rem;
+    }
+    &__icons-item{
+      font-size: 6rem;
+      margin-right: 8rem;
+    }
+    &__icons-item:last-child{
+      margin-right: 0;
+    }
   }
+
 }

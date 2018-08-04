@@ -22,7 +22,9 @@ a{
 .flex-j-s{
   justify-content: flex-start;
 }
-
+.flex-d-c{
+  flex-direction: column;
+}
 .flex-n-w{
   flex-wrap: nowrap;
 }
@@ -79,6 +81,9 @@ h2{
 }
 .mobile-flex{
   display: none;
+}
+.underline{
+  text-decoration: underline;
 }
 @media(max-width: 750px){
   .mobile{
