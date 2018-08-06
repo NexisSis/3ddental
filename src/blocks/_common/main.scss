@@ -76,6 +76,9 @@ h2{
 .mobile{
   display: none;
 }
+.computer{
+  display: block;
+}
 .break-desktop{
   display: block;
 }
@@ -85,14 +88,29 @@ h2{
 .underline{
   text-decoration: underline;
 }
+.visible{
+  margin-left:0!important;
+}
+.z-index{
+  z-index: 99999!important;
+}
 @media(max-width: 750px){
+  .half{
+    width: 100%!important;
+  }
+  .quarter{
+    width: 50%!important;
+  }
+  .computer{
+    display: none!important;
+  }
   .mobile{
-    display: block;
+    display: block!important;
   }
   .mobile-flex{
-    display: flex;
+    display: flex!important;
   }
   .break-desktop{
-    display: inline;
+    display: inline!important;
   }
 }

@@ -59,3 +59,16 @@
     line-height: 1.5rem;
   }
 }
+@media(max-width: 750px){
+  .about{
+    &__bg-right{
+      background-image: unset;
+    }
+    &__text-2{
+
+    }
+    &__text-3{
+
+    }
+  }
+}
