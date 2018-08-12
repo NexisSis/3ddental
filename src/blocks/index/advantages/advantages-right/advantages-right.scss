@@ -46,3 +46,47 @@
     line-height: 1.6rem;
   }
 }
+
+@media(max-width: 750px){
+  .advantages-right{
+    height: auto;
+    display: block;
+    margin-top:0rem;
+    padding-bottom: 55rem;
+    &__text-1{
+      font-size: 4rem;
+      line-height: 5.2rem;
+    }
+    &__text-1_blue{
+      display: inline;
+    }
+    &__text-3{
+      display: none;
+    }
+    &__position{
+      padding-left: 9rem;
+      padding-right: 11rem;
+      padding-top: 11.5rem;
+      align-items: baseline;
+    }
+    &__content{
+      width: 90%;
+      margin-left:0;
+    }
+    &__circle{
+      width: 10%;
+      justify-content: flex-start;
+      font-size: 4rem;
+    }
+    &__item-2{
+      margin-top:1rem;
+    }
+    &__item-3{
+      margin-top:2rem;
+    }
+    &__item-4{
+      margin-top: 2rem;
+    }
+  }
+
+}

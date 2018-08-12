@@ -50,3 +50,9 @@
     color: #515055;
   }
 }
+
+@media(max-width: 750px){
+  .testimonials-item{
+    height: 64rem;
+  }
+}

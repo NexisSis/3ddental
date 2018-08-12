@@ -6,3 +6,11 @@
   background-position-y: 4.3rem;
   background-color: #ebeff2;
 }
+@media(max-width: 750px){
+  #advantages{
+    background-image: url(../img/advantages-bg-mobile.png);
+    height: auto;
+    background-size: auto;
+    background-position-y: 56rem;
+  }
+}

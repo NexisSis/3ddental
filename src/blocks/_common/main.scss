@@ -1,3 +1,8 @@
+body{
+  height: 2000rem;
+}
+
+
 html {
   font-size: .9375vw;
   font-family: PF BeauSans Pro;
@@ -39,10 +44,10 @@ a{
 }
 .arrow{
     span{
-    background-color: white;
-    width: 4rem;
-    height: .056em;
-    display: block;
+      background-color: white;
+      width: 4rem;
+      height: .08em;
+      display: block;
     &:first-of-type{
       transform: rotate(-45deg);
       width: 0.3rem;
@@ -76,6 +81,9 @@ h2{
 .mobile{
   display: none;
 }
+.computer{
+  display: block;
+}
 .break-desktop{
   display: block;
 }
@@ -85,14 +93,51 @@ h2{
 .underline{
   text-decoration: underline;
 }
+.visible{
+  margin-left:0!important;
+}
+.z-index{
+  z-index: 99999!important;
+}
 @media(max-width: 750px){
+  .half{
+    width: 100%!important;
+  }
+  .quarter{
+    width: 50%!important;
+  }
+  .computer{
+    display: none!important;
+  }
   .mobile{
-    display: block;
+    display: block!important;
   }
   .mobile-flex{
-    display: flex;
+    display: flex!important;
   }
   .break-desktop{
-    display: inline;
+    display: inline!important;
   }
+  .half-height{
+    max-width: unset;
+    min-height: unset;
+    height: 63rem;
+  }
+  .arrow{
+    span{
+      background-color: white;
+      width: 20rem;
+      height: .3em;
+      display: block;
+      &:first-of-type{
+        transform: rotate(-45deg);
+        width: 1rem;
+      }
+      &:last-of-type{
+        transform: rotate(45deg);
+        width: 1rem;
+      }
+    }
+  }
+
 }

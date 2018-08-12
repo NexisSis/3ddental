@@ -59,3 +59,44 @@
     line-height: 1.5rem;
   }
 }
+@media(max-width: 750px){
+  .about{
+    &__bg-right{
+      background-image: unset;
+    }
+    &__text-2{
+      font-weight: 100;
+      font-size: 12rem;
+      /* margin-left: 8rem; */
+      margin-top: 11rem;
+      text-align: center;
+      margin-left:-6rem;
+    }
+    &__text-3{
+      color: #268fd0;
+      display: inline;
+      margin-right: 2rem;
+      color: #268fd0;
+      font-size: unset;
+      width: auto;
+      margin-top: 0;
+      transform: rotate(0deg);
+      margin-left: 0;
+      position: static;
+      text-transform: uppercase;
+    }
+    &__item{
+      height: auto;
+      min-height: unset;
+      max-height:unset;
+    }
+    &__text-4{
+      padding: 4.4rem 5rem 16rem;
+      margin-top: 0;
+      line-height: 7rem;
+      font-size: 4rem;
+      text-align: center;
+      color: #6f7072;
+    }
+  }
+}

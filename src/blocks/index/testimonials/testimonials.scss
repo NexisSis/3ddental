@@ -61,3 +61,16 @@
     margin-top: 0.5rem;
   }
 }
+@media(max-width: 750px){
+  .testimonials{
+    //64
+    &__heading{
+      height: 64rem;
+    }
+    &__height{
+      height: auto;
+      max-height: unset;
+      min-height: unset;
+    }
+  }
+}

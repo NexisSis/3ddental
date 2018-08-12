@@ -4,8 +4,7 @@
     padding-top: 4rem;
     top: 0;
     width: 100%;
-    &__item-1{
-      z-index: 1;
+    &__item-1,&__nav{
       font-size: 5.5rem;
       position: relative;
     }
@@ -41,14 +40,8 @@
     &__wrapper{
       padding: 0 3rem;
     }
-    &__call_hover{
-      display: none;
-    }
-    &__menu_hover{
-      display: none;
-    }
-    &__menu_hover{
-      display: block;
+
+    &__menu_hover,&__call_hover{
       position: absolute;
       height: 190rem;
       min-height: 190rem;
@@ -56,12 +49,16 @@
       top: 0;
       width: 100%;
       background-color: #1ea1cde6;
+      transition: 1s;
     }
-    &___menu-wrapper{
+    &__menu_hover,&__call_hover{
+      margin-left:-100%;
+    }
+    &__call-wrapper{
       height: 100%;
       padding-top: 13rem;
     }
-    &__menu-item-1{
+    &__call-item-1{
       height: 32rem;
       border-bottom: .1rem solid #7bddff;
       padding: 8rem 20rem 0rem;
@@ -97,7 +94,7 @@
       font-weight: 700;
       margin-top:-5rem;
     }
-    &__menu-item-2{
+    &__call-item-2{
       height: 57rem;
     }
     &__icons{
@@ -110,6 +107,47 @@
     &__icons-item:last-child{
       margin-right: 0;
     }
-  }
-
+    &__menu_hover{
+        position: absolute;
+        height: 99.6%;
+        background-color: #20a0cdd9;
+        width: 100%;
+        z-index: 1;
+        transition: 1s;
+        ul{
+          list-style-type: none;
+          padding-left: 33rem;
+          padding-top: 28rem;
+          li{
+            color: #fff;
+            font-size: 9.5rem;
+            font-weight: 300;
+            transition: .5s;
+            margin-bottom: 9.3rem;
+          }
+          li:hover{
+            font-size: 14rem;
+          }
+          li::before{
+            opacity: 0;
+            content: " ";
+            width: 0rem;
+            height: 0.5rem;
+            background-color: #fff;
+            display: inline-block;
+            position: absolute;
+            margin-left: -15.7rem;
+            margin-top: 6.5rem;
+          }
+          li:hover::before{
+            opacity: 1;
+            width: 10rem;
+          }
+        }
+      }
+      &__hover-wrapper{
+        padding-left: 5rem;
+        padding-top: 9rem;
+      }
+    }
 }
