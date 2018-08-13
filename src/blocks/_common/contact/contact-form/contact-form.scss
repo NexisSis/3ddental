@@ -80,3 +80,8 @@
     margin-left: 4rem;
   }
 }
+@media(max-width: 750px){
+  .contact-form{
+    display: none;
+  }
+}

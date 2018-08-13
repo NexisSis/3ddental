@@ -29,3 +29,20 @@
     font-size: 0.96rem;
   }
 }
+@media(max-width:750px){
+  #contact{
+    margin-top:0;
+    height: auto;
+    background-position-x: 38rem;
+    background-position-y: 38rem;
+  }
+  .contact{
+    &__wrapper{
+      padding: 14rem 1.2rem 13rem;
+    }
+    &__vertical{
+      display: none;
+    }
+
+  }
+}

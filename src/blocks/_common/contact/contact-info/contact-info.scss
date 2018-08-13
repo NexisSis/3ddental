@@ -8,6 +8,8 @@
   &__text-2{
     font-size: 2.55rem;
     font-weight: 300;
+    display: block;
+    margin-top: 2rem;
   }
   &__descr{
     margin-top: 3rem;
@@ -45,6 +47,9 @@
     color: black;
     font-weight: 500;
     font-size: 0.95rem;
+    a{
+      color:black;
+    }
   }
   &__item-3{
     width: 24%;
@@ -73,5 +78,98 @@
   &__social{
     padding-right: 3.6rem;
     margin-top: 2.3rem;
+  }
+}
+@media(max-width: 750px){
+  .contact-info{
+    &__location{
+      padding-top: 6rem;
+    }
+    &__text-1{
+      text-align: center;
+      font-size: 13rem;
+    }
+    &__text-2{
+      font-size: 6.8rem;
+      display: inline;
+      margin-top: 0;
+    }
+    &__descr{
+      padding-right: 7rem;
+      padding-left: 7rem;
+      text-align: center;
+      margin-top: 13rem;
+      font-size: 4rem;
+      line-height: 6rem;
+    }
+    &__item-1{
+      width: 100%;
+      border-right:unset;
+      height: 18rem;
+      border-bottom: 0.1rem solid #5fc1fe;
+      margin-top: 0rem;
+    }
+    &__item-2{
+      width: 100%;
+      border-right:unset;
+      height: 37rem;
+      border-bottom: .1rem solid #5fc1fe;
+      margin-top: 0;
+      margin-left:0;
+    }
+    &__item-3{
+      width: 100%;
+      height: 38rem;
+      margin-top: 0;
+      margin-left: 0;
+      border-right: unset;
+      border-bottom: .1rem solid #5fc1fe;
+    }
+    &__text-4{
+      font-size: 4rem;
+    }
+    &__text-5{
+      margin-top: 0;
+      font-size: 3.6rem;
+    }
+    &__wrapper{
+      padding-top: 3rem;
+    }
+    &__wrapper-2{
+      padding-top: 14rem;
+    }
+    &__wrapper-3{
+      width: 100%;
+    }
+    &__position{
+      display: block;
+      width: 73rem;
+      line-height: 6rem;
+    }
+    &__text-5-1,&__text-5-2{
+      display: inline;
+    }
+    &__text-5-2{
+      margin-left:1rem;
+    }
+    &__gmap-text{
+      margin-left: 3rem;
+      font-size: 4rem;
+    }
+    .icon-geo{
+      color: #1194cc;
+      font-size: 7rem;
+    }
+    &__uber{
+      width: 25rem;
+    }
+    &__text-6{
+      margin-left:0;
+      margin-top:0;
+    }
+    &__social{
+      padding-top: 8rem;
+      margin-top:0;
+    }
   }
 }

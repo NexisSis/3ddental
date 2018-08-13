@@ -17,3 +17,25 @@
     color:#0f94cd;
   }
 }
+@media(max-width: 750px){
+  .contact-social{
+    width: 100%;
+    &__text-1{
+      width: 100%;
+      font-size: 4rem;
+      text-align: center;
+      color: black;
+    }
+    &__icons{
+      width: 100%;
+      text-align: center;
+      margin-top: 8rem;
+    }
+    &__icon{
+      font-size: 6rem;
+    }
+    &__item{
+      margin-left: 9rem;
+    }
+  }
+}

@@ -53,6 +53,28 @@
 
 @media(max-width: 750px){
   .testimonials-item{
-    height: 64rem;
+    //height: 64rem;
+    &:last-child{
+      background-color: #e4eff5;
+    }
+    &__img{
+      display: none;
+    }
+    &__position-1{
+      padding: 5rem 5em;
+    }
+
+    &__text-4{
+      font-size: 4.6rem;
+      margin-top: 0rem;
+    }
+    &__text-5{
+      margin-top: 5rem;
+      font-size: 4rem;
+      line-height: 6rem;
+    }
+    &_blue{
+      background-color: #eff7fa;
+    }
   }
 }
