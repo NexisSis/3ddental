@@ -11,6 +11,7 @@
   &__heading{
     background-color: #1194cc;
     height: 100%;
+    display: flex;
   }
   &__text-1{
     color:white
@@ -67,11 +68,12 @@
   }
   .testimonials{
     //64
+
     &__icon{
       display: none;
     }
     &__heading{
-      height: 64rem;
+      height: 80.1rem;
     }
     &__height{
       height: auto;
@@ -121,4 +123,37 @@
       margin-top: 2.86rem;
     }
   }
+  &__heading{
+    width: 53.5rem!important;
+  }
+  .testimonials-jcarousel-wrapper{
+    width: 100%!important;
+  }
+}
+.testimonials-jcarousel-wrapper{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.testimonials-carousel {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.testimonials-carousel ul {
+  -webkit-padding-start: 0px;
+  width: 10000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.testimonials-carousel li {
+  float: left;
+  height: 100%;
 }
