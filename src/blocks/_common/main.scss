@@ -86,6 +86,9 @@ h2{
 .computer{
   display: block;
 }
+.computer-flex{
+  display: flex;
+}
 .break-desktop{
   display: block;
 }
@@ -100,6 +103,9 @@ h2{
 }
 .z-index{
   z-index: 99999!important;
+}
+.p-s{
+  position:static!important;
 }
 @media(max-width: 750px){
   .flex-m{
@@ -122,6 +128,9 @@ h2{
   }
   .mobile-flex{
     display: flex!important;
+  }
+  .computer-flex{
+    display: none;
   }
   .break-desktop{
     display: inline!important;

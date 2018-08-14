@@ -72,3 +72,26 @@
   }
 
 }
+
+@media(max-width: 750px){
+  .header{
+     li:first-child {
+       margin-left: 2.8rem!important;
+    }
+    &__logo{
+      background-color: unset;
+      width: 13.3rem;
+      height: 16.4rem;
+    }
+    &__menu-bg{
+      background-color: #3297d5;
+    }
+    &__menu-padding{
+      padding-bottom: 5rem;
+    }
+    &__menu-item_size{
+      font-size: 6.5rem!important;
+    }
+
+  }
+}
