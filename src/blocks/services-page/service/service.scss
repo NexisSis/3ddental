@@ -10,6 +10,7 @@
 
 .services{
   &__item{
+    width: 24.9%;
     border: .05rem solid #bdbdbd;
     height: 21rem;
     text-align: center;
@@ -162,6 +163,7 @@
     }
     &__item{
       height: 47rem;
+      width: 49.7%;
       &:nth-child(even){
         border-right: .05rem solid #bdbdbd;
       }
