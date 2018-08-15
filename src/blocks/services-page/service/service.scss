@@ -1,0 +1,149 @@
+#services{
+  h2{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 200;
+    color: #0e96ca;
+    margin-top: 0.4rem;
+  }
+}
+
+.services{
+  &__item{
+    border: .05rem solid #bdbdbd;
+    height: 21rem;
+    text-align: center;
+    padding-top: 7rem;
+    cursor: pointer;
+    transition: 1s;
+    border-right: unset;
+    border-bottom:unset;
+    &:nth-child(4){
+      border-right: .05rem solid #bdbdbd;
+    }
+    &:nth-child(n+5){
+      border-bottom: .05rem solid #bdbdbd;
+    }
+    &:last-child{
+      border-right: .05rem solid #bdbdbd;
+    }
+  }
+  &__item:hover{
+    background-color: #1194cc;
+  }
+  &__item:hover &__text-1{
+    color:white;
+  }
+  &__item:hover &__description{
+    opacity: 1;
+  }
+  &__item:hover &__line-3{
+    opacity: 0;
+  }
+  &__item:hover &__line-1{
+    opacity: 0;
+  }
+  &__item:hover &__line-2{
+    opacity: 0;
+  }
+  &__item:hover &__text-2{
+    opacity: 0;
+    background-color: #1194cc;
+  }
+  &__wrapper{
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    margin-top: 2.8rem;
+  }
+  &__img-1{
+    width: 6.6rem;
+    margin-left: 1.2rem;
+
+   }
+  &__img-2{
+    width: 11rem;
+    margin-top: 2rem;
+
+  }
+  &__img-3{
+    width: 5.6rem;
+    margin-top: 2.3rem;
+
+  }
+  &__img-4{
+    width: 7rem;
+    margin-top: 2rem;
+    margin-bottom: -0.5rem;
+  }
+  &__img-5,&__img-6{
+    width: 5.5rem;
+    margin-top: 1.3rem;
+  }
+  &__img-7{
+    width: 3.9rem;
+    margin-top: 1.3rem;
+  }
+  &__img-8{
+    width: 10rem;
+    margin-top: 2.3rem;
+  }
+  &__description{
+    opacity: 0;
+    transition: 1s;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    font-size: 1rem;
+    margin-top: -1.3rem;
+    color: white;
+    line-height: 1.3rem;
+  }
+  &__text-1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+    transition: 0.5s;
+  }
+  &__line-1{
+    width: 9rem;
+    height: 0.06rem;
+    background-color: #1194cc;
+    transform: rotate(47deg);
+    position: absolute;
+    margin-top: -3.8rem;
+    margin-left: -1.4rem;
+    transition: 1s;
+  }
+  &__line-2{
+    width: 9rem;
+    height: 0.06rem;
+    background-color: #82c4e0;
+    transform: rotate(47deg);
+    position: absolute;
+    margin-top: 17.7rem;
+    margin-left: 18.5rem;
+    transition: 1s;
+  }
+  &__line-3{
+    width: 4rem;
+    height: 0.25rem;
+    background-color: #82c4e0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.8rem;
+    transition: 1s;
+  }
+  &__text-2{
+    width: 2rem;
+    height: 1.5rem;
+    position: absolute;
+    margin-top: -5.4rem;
+    font-size: .85rem;
+    margin-left: 1.2rem;
+    background-color: #fff;
+    padding-top: 0.4rem;
+    padding-left: 0.3rem;
+    color: #1194cc;
+    transition: 1s;
+  }
+}

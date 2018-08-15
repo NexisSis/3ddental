@@ -1,0 +1,27 @@
+.breadcrumbs{
+  margin-top: 2.2rem;
+  margin-left: 1.2rem;
+  &__text-1{
+    font-size: 1.1rem;
+    color: #0e96ca;
+    font-weight: 600;
+    margin-right: 1rem;
+  }
+  &__text-2{
+    color: black;
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  .arrow{
+    span{
+      background-color: #0e96ca;
+      &:first-child{
+        width: .3rem;
+      }
+      &:last-child{
+        width: .3rem;
+      }
+      width:3rem;
+    }
+  }
+}

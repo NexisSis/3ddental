@@ -35,8 +35,11 @@ a{
 .c-w{
   color:white;
 }
-.b-c-w{
+.bg-c-w{
   background-color:white;
+}
+.bg-c-b{
+  background-color: #0e96ca;
 }
 .mt-0{
   margin-top:0!important;
@@ -48,7 +51,8 @@ a{
     span{
       background-color: white;
       width: 4rem;
-      height: .08em;
+     // height: .08em;
+      height: 0.06rem;
       display: block;
     &:first-of-type{
       transform: rotate(-45deg);
@@ -67,7 +71,7 @@ a{
   width: 50%;
 }
 .quarter{
-  width: 25%;
+  width: 24.9%;
 }
 .half-height{
   min-height: 18em;
@@ -107,6 +111,7 @@ h2{
 .p-s{
   position:static!important;
 }
+
 @media(max-width: 750px){
   .flex-m{
     display: flex;

@@ -48,7 +48,8 @@
       z-index: 1;
       top: 0;
       width: 100%;
-      background-color: #1ea1cde6;
+      opacity:0.96;
+      background-color: #1da2cc;
       transition: 1s;
     }
     &__menu_hover,&__call_hover{
@@ -110,7 +111,8 @@
     &__menu_hover{
         position: absolute;
         height: 99.6%;
-        background-color: #20a0cdd9;
+        opacity:0.95;
+        background-color: #1da2cc;
         width: 100%;
         z-index: 1;
         transition: 1s;
