@@ -1,0 +1,35 @@
+#offer{
+  background-image: url(../img/services-offer-bg.png);
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+
+}
+.offer{
+  &__wrapper{
+    padding-left: 71rem;
+    padding-right: 13rem;
+    padding-top: 7.3rem;
+  }
+  &__text-1{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+    line-height: 1.8rem;
+    color:black;
+    &_blue{
+      color:#1897cc;
+    }
+  }
+  &__text-2{
+    margin-top: 1.9rem;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+    line-height: 1.6rem;
+  }
+  &__button-wrapper{
+    margin-top: 2.5rem;
+  }
+
+}
