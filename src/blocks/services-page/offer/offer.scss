@@ -33,3 +33,30 @@
   }
 
 }
+
+@media(max-width: 750px){
+  #offer{
+    background-image: url(../img/services-offer-bg-mobile.png);
+    height: 127rem;
+    margin-top: 1rem;
+  }
+  .offer{
+    &__wrapper{
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      padding-top: 22rem;
+    }
+    &__text-1{
+      font-size: 6.6rem;
+      line-height: 9rem;
+    }
+    &__text-2{
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-top: 9rem;
+    }
+    &__button-wrapper{
+      margin-top:12rem;
+    }
+  }
+}

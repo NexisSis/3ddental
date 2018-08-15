@@ -27,3 +27,32 @@
     padding-top: 9rem;
   }
 }
+@media(max-width: 750px){
+  #services-page-main{
+    background-image: url(../img/services-bg-mobile.png);
+    height: 159rem;
+    max-height: unset;
+    min-height: unset;
+    width: 100%;
+    background-size: cover;
+    background-position-y: -10rem;
+  }
+  .services-page-main{
+    &__wrapper{
+      padding-left: 3rem;
+      padding-top: 0rem;
+      padding-right: 3rem;
+    }
+    &__text-1{
+      font-size: 23rem;
+    }
+    &__text-2{
+      font-size: 11rem;
+      text-align: center;
+      padding-right: 0;
+      padding-left: 0;
+      margin-top: -4rem;
+      letter-spacing: 0.4rem;
+    }
+  }
+}

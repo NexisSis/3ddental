@@ -21,6 +21,13 @@
 }
 @media(max-width: 750px){
   .main-footer{
-    display: none;
+    &__button{
+      height: 17rem;
+      padding: 0 5rem;
+      background-color: #58b4e3;
+    }
+    &__text{
+      font-size: 5.5rem;
+    }
   }
 }

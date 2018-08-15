@@ -25,3 +25,28 @@
     }
   }
 }
+@media(max-width: 750px){
+  .breadcrumbs{
+    justify-content: center;
+    margin-top: 7.2rem;
+    &__text-1{
+      font-size: 4.5rem;
+      margin-right: 3rem;
+    }
+    &__text-2{
+      font-size: 4rem;
+      margin-left:3rem;
+    }
+    .arrow{
+      span{
+        &:first-child{
+          width: 1rem;
+        }
+        &:last-child{
+          width: 1rem;
+        }
+        width:12rem;
+      }
+    }
+  }
+}
