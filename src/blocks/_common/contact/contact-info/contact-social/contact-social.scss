@@ -36,6 +36,9 @@
     }
     &__item{
       margin-left: 9rem;
+      &:first-child{
+        margin-left:0;
+      }
     }
   }
 }
