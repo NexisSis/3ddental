@@ -1,0 +1,40 @@
+#schedule{
+  background-image: url(../img/services-schedule-bg.png);
+  background-size: cover;
+  height: 37.3rem;
+  width: 100%;
+}
+.schedule{
+  margin-bottom: -0.5rem;
+  &__wrapper{
+    padding-left: 30rem;
+    padding-top: 8rem;
+    padding-right: 54rem;
+  }
+  &__text-1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    line-height: 3.8rem;
+    letter-spacing: 0.1rem;
+    &-blue{
+      color: #8cdcff;
+    }
+  }
+  &__text-2{
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+  &__text-3{
+    color: white;
+    margin-top: 1.5rem;
+    line-height: 1.7rem;
+    font-size: 1rem;
+  }
+  &__button-wrapper{
+    margin-top: 2.6rem;
+  }
+}
