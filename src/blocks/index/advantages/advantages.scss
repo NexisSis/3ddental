@@ -8,9 +8,7 @@
 }
 @media(max-width: 750px){
   #advantages{
-    background-image: url(../img/advantages-bg-mobile.png);
+    background-image: unset;
     height: auto;
-    background-size: auto;
-    background-position-y: 56rem;
   }
 }

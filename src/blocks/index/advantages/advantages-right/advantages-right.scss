@@ -48,11 +48,21 @@
 }
 
 @media(max-width: 750px){
+
   .advantages-right{
     height: auto;
     display: block;
     margin-top:0rem;
-    padding-bottom: 55rem;
+    padding-bottom: 52rem;
+    background-image: url(../img/advantages-bg-mobile.png);
+    background-size: cover;
+    background-position-y: 9.7rem;
+    background-repeat: no-repeat;
+    background-position-x: 0rem;
+    &__position:hover &__circle{
+      background-color: unset;
+      color: black;
+    }
     &__text-1{
       font-size: 4rem;
       line-height: 5.2rem;
