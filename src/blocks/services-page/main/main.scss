@@ -1,3 +1,29 @@
+#services-page-main{
+  background-image: url(../img/services-bg.png);
+  height: 33.2rem;
+  max-height: 35rem;
+  min-height: 30rem;
+  width: 100%;
+  background-size: cover;
+}
 .services-page-main{
+  &__text-1{
+    color: white;
+    font-size: 7.7rem;
+    font-weight: 100;
+  }
+  &__text-2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-left: 0.5rem;
+    letter-spacing: 0.05rem;
+    margin-top: -0.6rem;
+    padding-right: 15rem;
 
+  }
+  &__wrapper{
+    padding-left: 68rem;
+    padding-top: 9rem;
+  }
 }
