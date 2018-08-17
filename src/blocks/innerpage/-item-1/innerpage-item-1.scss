@@ -1,0 +1,25 @@
+#innerpage-item-1{
+  height: 33rem;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position-x: 66rem;
+  background-position-y: 3rem;
+}
+.innerpage-item-1{
+  &__wrapper{
+    padding-left: 5.6rem;
+    padding-right: 48rem;
+    padding-top: 7.3rem;
+  }
+  &__text-1{
+    font-size: 2.6rem;
+    &_blue{
+      color: #1194cc;
+    }
+  }
+  &__text-2{
+    margin-top: 3.2rem;
+    font-size: 1.08rem;
+    line-height: 1.7rem;
+  }
+}
