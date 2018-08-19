@@ -25,3 +25,30 @@
     margin-top: 1rem;
   }
 }
+@media(max-width: 750px) {
+  #innerpage-main {
+    height: 165rem;
+    background-size: auto;
+    background-color: #1194cc;
+    background-position-y: 74rem;
+    background-repeat: no-repeat;
+  }
+  .innerpage-main{
+    &__wrapper{
+      padding-left: 2.5rem;
+      padding-right: 0;
+      padding-top: 4rem;
+    }
+    &__text-1{
+        font-size: 24.8rem;
+    }
+    &__text-2{
+      font-size: 19rem;
+      margin-top: -5rem;
+    }
+    &__text-3{
+      font-size: 9.2rem;
+      margin-top: 2rem;
+    }
+  }
+}

@@ -86,6 +86,7 @@ h2{
 .mobile{
   display: none;
 }
+
 .computer{
   display: block;
 }
@@ -114,7 +115,14 @@ h2{
   background-color: #e4eff5;
 }
 
+.smart-break-mobile{
+  display: inline;
+}
+
 @media(max-width: 750px){
+  .smart-break-mobile{
+    display: block;
+  }
   .flex-m{
     display: flex;
     flex-wrap: wrap;
