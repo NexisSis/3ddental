@@ -1,0 +1,39 @@
+.dental-anxiety{
+  &__main-bg{
+    background-image: url(../img/dental-anxiety-main-bg.png);
+  }
+  &__bg-2{
+    background-image: url(../img/dental-anxiety-bg-2.png);
+  }
+  &__bg-3{
+    background-image: url(../img/dental-anxiety-bg-3.png);
+  }
+  &__bg-4{
+    background-image: url(../img/dental-anxiety-bg-4.png);
+  }
+  &__bg-5{
+    background-image: url(../img/dental-anxiety-bg-5.png);
+  }
+}
+@media(max-width: 750px){
+  .dental-anxiety{
+    &__main-bg{
+      background-image: url(../img/dental-anxiety-main-bg-mobile.png);
+    }
+    &__bg-2{
+      background-image: url(../img/dental-anxiety-bg-2-mobile.png);
+    }
+    &__bg-3{
+      background-image: url(../img/dental-anxiety-bg-3-mobile.png);
+    }
+    &__bg-4{
+      background-image: url(../img/dental-anxiety-bg-4-mobile.png);
+      background-position-y: 99rem!important;
+      background-position-x: right!important;
+    }
+    &__bg-5{
+      background-image: url(../img/dental-anxiety-bg-5-mobile.png);
+      background-position-y: 135rem!important;
+    }
+  }
+}
