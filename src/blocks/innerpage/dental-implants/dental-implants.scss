@@ -1,0 +1,36 @@
+.dental-implants{
+  &__main-bg{
+    background-image: url(../img/dental-implants-bg.png);
+  }
+  &__bg-2{
+    background-image: url(../img/dental-implants-bg-2.png);
+  }
+  &__bg-3{
+    background-image: url(../img/dental-implants-bg-3.png);
+  }
+  &__bg-4{
+    background-image: url(../img/dental-implants-bg-4.png);
+  }
+  &__bg-5{
+    background-image: url(../img/dental-implants-bg-5.png);
+  }
+}
+@media(max-width: 750px){
+  .dental-implants{
+    &__main-bg{
+      background-image: url(../img/dental-implants-bg-mobile.png);
+    }
+    &__bg-2{
+      background-image: url(../img/dental-implants-bg-2-mobile.png);
+    }
+    &__bg-3{
+      background-image: url(../img/dental-implants-bg-3-mobile.png);
+    }
+    &__bg-4{
+      background-image: url(../img/dental-implants-bg-4-mobile.png);
+    }
+    &__bg-5{
+      background-image: url(../img/dental-implants-bg-5-mobile.png);
+    }
+  }
+}

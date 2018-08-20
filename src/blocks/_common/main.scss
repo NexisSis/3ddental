@@ -118,7 +118,9 @@ h2{
 .smart-break-mobile{
   display: inline;
 }
-
+.m-l-25{
+  margin-left:25%!important;
+}
 @media(max-width: 750px){
   .smart-break-mobile{
     display: block;
