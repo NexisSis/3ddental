@@ -121,7 +121,13 @@ h2{
 .m-l-25{
   margin-left:25%!important;
 }
+.m-l-0{
+  margin-left:0!important;
+}
 @media(max-width: 750px){
+  .m-l-0{
+    margin-left:unset;
+  }
   .smart-break-mobile{
     display: block;
   }

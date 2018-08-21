@@ -1,0 +1,28 @@
+#about-page-item-1{
+  height: 38.4rem;
+  background-image: url(../img/about-page-item-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.about-page-item-1{
+  &__wrapper{
+    padding-top: 10rem;
+    padding-left: 8rem;
+    padding-right: 76rem;
+  }
+  &__text-1{
+    font-size: 1.37rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    &_blue{
+      color:#0f94cd;
+    }
+  }
+  &__text-2{
+    margin-top: 2rem;
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+}
