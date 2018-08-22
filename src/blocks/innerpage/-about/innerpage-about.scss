@@ -1,0 +1,239 @@
+#innerpage-about {
+  h2{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 200;
+    color: #0e96ca;
+  }
+  .half{
+    height: 38rem;
+  }
+  ul{
+    padding-top: 2.7rem;
+    padding-left: 15.3rem;
+    list-style: none;
+    line-height: 3.3rem;
+    li{
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      &:before{
+        content: " ";
+        width: 2.5rem;
+        height: .15rem;
+        background-color: #3599d7;
+        display: inline-block;
+        position: absolute;
+        margin-left: -4rem;
+        margin-top: 1.35rem;
+      }
+    }
+  }
+  .another-ul{
+    @extend ul;
+    padding-top: 2rem;
+    padding-left: 4.3rem;
+    list-style: none;
+    line-height: 1.5rem;
+    li{
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      &:before{
+        background-color: #b1e8fd;
+        margin-top:1rem;
+      }
+    }
+  }
+}
+.innerpage-about{
+  &_bg-blue{
+    background-color: #1194cc;
+  }
+  &__wrapper{
+    padding-top: 2.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  &__wrapper-2{
+    padding-left: 3.7rem;
+    padding-right: 3.5rem;
+    padding-top: 4.4rem;
+  }
+  &__wrapper-3{
+    padding-top: 9.5rem;
+    padding-left: 4.5rem;
+    padding-right: 5rem;
+  }
+  &__wrapper-4{
+    padding-top: 4.5rem;
+    padding-left: 4rem;
+    padding-right: 5rem;
+  }
+  &__wrapper-5{
+    padding-top: 2.5rem;
+  }
+  &__text-1{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    &_big{
+      font-size: 2.6rem;
+      margin-top: 3rem;
+      margin-bottom: 3.2rem;
+    }
+    &_p-1{
+      padding-right: 3rem;
+    }
+    &_p-2{
+      padding-right: 8rem;
+    }
+    &_p-3{
+      padding-right: 10rem;
+    }
+    &_blue{
+      color:#0e96ca;
+      font-weight: 600;
+    }
+  }
+  &__text-2{
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 300;
+  }
+  &__text-2_blue{
+    font-size: 4.7rem;
+    font-weight: 100;
+    color: #b2e8ff;
+  }
+  &__text-3{
+    margin-top: 1.5rem;
+    color: white;
+    padding-right: 4rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.67rem;
+    &_margin{
+      margin-top: 2rem;
+    }
+  }
+  &__button-wrapper{
+    margin-top: 30.4rem;
+    margin-left: 15.5rem;
+    margin-right: 14.4rem;
+  }
+  &_break{
+    display: block;
+    margin-top: 2rem;
+  }
+  &_break-mobile{
+    display: inline;
+  }
+}
+@media(max-width: 750px) {
+  #innerpage-about {
+    h2 {
+      font-size: 12rem;
+      margin-top: 8rem;
+    }
+    .half {
+      height: auto;
+    }
+
+    ul {
+      padding-top: 5rem;
+      padding-left: 24rem;
+      list-style: none;
+      line-height: 12rem;
+      li {
+        font-size: 4.8rem;
+        &:before {
+          margin-left: -15rem;
+          margin-top: 6.2rem;
+          width: 10rem;
+          height: .2rem;
+        }
+      }
+    }
+    .another-ul {
+      padding-left: 10rem;
+      line-height: 6rem;
+      li {
+        font-size: 4rem;
+        margin-bottom: 4rem;
+        &:before{
+          margin-top: 0.84em;
+        }
+      }
+    }
+  }
+  .innerpage-about{
+    &__wrapper{
+      padding-top: 7rem;
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+    &__wrapper-2{
+      padding-left: 3rem;
+      padding-right: 7rem;
+      padding-top: 3rem;
+      padding-bottom: 7rem;
+    }
+    &__wrapper-3,&__wrapper-4{
+      padding-top: 8rem;
+      padding-left: 2rem;
+      padding-right: 5rem;
+      padding-bottom: 9rem;
+    }
+    &__text-1{
+      font-size: 4.5rem;
+      line-height: 6rem;
+      &_big{
+        font-size: 8.4rem;
+        margin-top: 3.9rem;
+        margin-bottom: 6.2rem;
+      }
+      &_p-1{
+        padding-right: 0;
+      }
+      &_p-2{
+        padding-right: 0;
+      }
+      &_p-3{
+        padding-right: 0;
+      }
+    }
+    &__text-2{
+      font-size: 9rem;
+      &_blue{
+        font-size: 15.6rem;
+
+      }
+    }
+    &__text-3{
+      margin-top: 11rem;
+      padding-left: 1rem;
+      font-size: 4.5rem;
+      line-height: 6.3rem;
+      padding-right: 1rem;
+    }
+    &_break{
+      display: block;
+      margin-top: 7rem;
+    }
+    &_break-mobile{
+      display: block;
+      margin-top: 7rem;
+    }
+    &_bg-blue{
+      z-index: 1;
+    }
+    &_bg-size{
+      height: 76rem!important;
+      margin-top: -3rem;
+    }
+    &__button-wrapper{
+      margin-left:3rem;
+      margin-right: 3rem;
+      margin-top:33rem;
+    }
+  }
+}

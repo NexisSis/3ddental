@@ -1,0 +1,41 @@
+.injectables{
+  &__main-bg{
+    background-image: url(../img/injectables-bg.png);
+  }
+  &__bg-2{
+    background-image: url(../img/injectables-bg-2.png);
+  }
+  &__bg-3{
+    background-image: url(../img/injectables-bg-3.png);
+  }
+  &__bg-4{
+    background-image: url(../img/injectables-bg-4.png);
+  }
+  &__bg-5{
+    background-image: url(../img/injectables-bg-5.png);
+  }
+}
+@media(max-width: 750px){
+  .injectables{
+    &__main-bg{
+      background-image: url(../img/injectables-bg-mobile.png);
+    }
+    &__bg-2{
+      background-image: url(../img/injectables-bg-2-mobile.png);
+    }
+    &__bg-3{
+      background-image: url(../img/injectables-bg-3-mobile.png);
+    }
+    &__bg-4{
+      background-image: url(../img/injectables-bg-4-mobile.png);
+    }
+    &__bg-5{
+      background-image: url(../img/injectables-bg-5-mobile.png);
+      background-position-y: 140rem!important;
+      .innerpage-item-3__text-3{
+        margin-top: 162rem!important;
+        margin-bottom: 5rem!important;
+      }
+    }
+  }
+}

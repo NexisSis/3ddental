@@ -1,0 +1,33 @@
+.about-page-item-2{
+  &_bg{
+  height: 37rem;
+  background-image: url(../img/about-page-item-2.png);
+  background-size: cover;
+  }
+  &__wrapper{
+    padding-left: 5.3rem;
+    padding-right: 4rem;
+  }
+  &__text-1{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.35rem;
+    margin-bottom: 3.5rem;
+    letter-spacing: 0.02rem;
+    &_blue{
+      color:#0f94cd;
+    }
+  }
+  &__text-2{
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
+}
+@media(max-width:750px){
+    .about-page-item-2{
+        &_bg{
+            height: 197rem;
+            background-image: url(../img/about-page-item-2-mobile.png);
+          }
+    }
+}

@@ -1,0 +1,40 @@
+.teeth-whitening{
+  &__main-bg{
+    background-image: url(../img/teeth-whitening-bg.png);
+  }
+  &__bg-2{
+    background-image: url(../img/teeth-whitening-bg-2.png);
+  }
+  &__bg-3{
+    background-image: url(../img/teeth-whitening-bg-3.png);
+  }
+  &__bg-4{
+    background-image: url(../img/teeth-whitening-bg-4.png);
+  }
+  &__bg-5{
+    background-image: url(../img/teeth-whitening-bg-5.png);
+  }
+}
+@media(max-width: 750px){
+  .teeth-whitening{
+    &__main-bg{
+      background-image: url(../img/teeth-whitening-bg-mobile.png);
+      background-position-y: 0!important;
+    }
+    &__bg-2{
+      background-image: url(../img/teeth-whitening-bg-2-mobile.png);
+    }
+    &__bg-3{
+      background-image: url(../img/teeth-whitening-bg-3-mobile.png);
+    }
+    &__bg-4{
+      background-image: url(../img/teeth-whitening-bg-4-mobile.png);
+    }
+    &__bg-5{
+      background-image: url(../img/teeth-whitening-bg-5-mobile.png);
+      &_position-big{
+        background-position-y: 141rem!important;
+      }
+    }
+  }
+}

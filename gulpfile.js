@@ -111,14 +111,14 @@ gulp.task('style:build', function () {
 });
 gulp.task('image:build', function () {
     gulp.src(path.src.img)
-        .pipe(cache(imagemin([
-            imagemin.svgo(),
-            imagemin.optipng({optimizationLevel: 3}),
-            pngquant({quality: '65-70', speed: 5})
-        ], {
-            verbose: true
-        })))
-        .pipe(flatten())
+//        .pipe(cache(imagemin([
+//            imagemin.svgo(),
+//            imagemin.optipng({optimizationLevel: 3}),
+//            pngquant({quality: '65-70', speed: 5})
+//        ], {
+//            verbose: true
+//        })))
+//        .pipe(flatten())
         .pipe(gulp.dest(path.build.img));
 });
 gulp.task('fonts:build', function() {
