@@ -6,7 +6,7 @@
 // gulp.task('scss',function () {
 //     mask='blocks/**/*.scss';
 //         const run = function(){
-//              gulp.src(mask)
+//              gulp.src(mask)ч
 //                 .pipe(concat( 'style.scss' ))
 //                 .pipe(sass({
 //                     outputStyle: 'compressed'
