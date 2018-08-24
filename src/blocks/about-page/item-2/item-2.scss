@@ -25,9 +25,33 @@
 }
 @media(max-width:750px){
     .about-page-item-2{
+        &__wrapper{
+          padding-left: 3.2rem;
+          padding-right: 1rem;
+          padding-top: 10rem;
+        }
+        &__text-1{
+          font-size: 6rem;
+          font-weight: 700;
+          line-height: 9.4rem;
+          letter-spacing: 0.2rem;
+          padding-right: 5rem;
+        }
+        &__text-2{
+          font-size: 4.5rem;
+          margin-top: 9rem;
+          line-height: 6rem;
+        }
         &_bg{
+            display: none;
+        }
+        &_bg-mobile{
             height: 197rem;
+            background-color: #d3dbde;
             background-image: url(../img/about-page-item-2-mobile.png);
-          }
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-y: 120rem;
+        }
     }
 }
