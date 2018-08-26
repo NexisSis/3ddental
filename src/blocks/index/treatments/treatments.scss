@@ -114,6 +114,8 @@
   &__hover-bg{
     transition: 2s;
     height: inherit;
+    overflow: hidden;
+    position: relative;
   }
   &__hover:hover &__hover-bg{
     background-color: #1795bba1;

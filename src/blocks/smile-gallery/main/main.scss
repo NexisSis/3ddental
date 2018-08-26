@@ -1,0 +1,20 @@
+#smile-gallery-main{
+  background-image: url(../img/smile-gallery-main-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33.3rem;
+}
+.smile-gallery-main{
+  &__wrapper{
+    padding-left: 2.1rem;
+    padding-top: 15.3rem;
+  }
+  &__text-1{
+    font-weight: 100;
+    font-size: 2.9rem;
+    &_blue{
+      font-size: 8rem;
+      color: #3399d9;
+    }
+  }
+}

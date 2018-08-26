@@ -1,0 +1,30 @@
+#gallery{
+  h2{
+    color: #1194cc;
+    font-size: 4.6rem;
+    font-weight: 100;
+    text-align: center;
+  }
+}
+.gallery{
+  &__wrapper{
+    padding-left: 1rem;
+    padding-top: 6.6rem;
+    padding-right: 1rem;
+  }
+  &__text-1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.32rem;
+    &_blue{
+      color:#0f94cd;
+    }
+  }
+  &__img-1{
+    width: 36rem;
+    margin-top: 3.5rem;
+  }
+  &__img-2{
+    width: 36rem;
+  }
+}
