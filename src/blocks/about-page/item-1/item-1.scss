@@ -29,9 +29,10 @@
 
 @media(max-width:750px){
     #about-page-item-1{
-        background-image: url(../img/about-page-item-1-mobile.png);
-        height: 112rem;
-        margin-top: 3rem;
+      background-image: url(../img/about-page-item-1-mobile.png);
+      height: auto;
+      margin-top: 3rem;
+      padding-bottom: 16rem;
     }
     .about-page-item-1{
         &__wrapper{

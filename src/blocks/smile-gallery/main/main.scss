@@ -18,3 +18,26 @@
     }
   }
 }
+
+@media(max-width: 750px){
+  #smile-gallery-main{
+    background-image: url(../img/smile-gallery-main-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 159rem;
+  }
+  .smile-gallery-main{
+    &__wrapper{
+      padding-left: 18rem;
+      padding-top: 23.3rem;
+      padding-right: 11rem;
+    }
+    &__text-1{
+      line-height: 17rem;
+      font-size: 15rem;
+      &_blue{
+        font-size: 32rem;
+      }
+    }
+  }
+}
